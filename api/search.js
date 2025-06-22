@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     limit: limit
   });
 
-  const response = await fetch(`${SUPABASE_URL}/rest/v1/linkedin_gaming_posts?${query.toString()}`, {
+  const response = await fetch(`${SUPABASE_URL}/rest/v1/Linkedin_gaming_posts?${query.toString()}`, {
     headers: {
       apikey: SUPABASE_KEY,
       Authorization: `Bearer ${SUPABASE_KEY}`,
